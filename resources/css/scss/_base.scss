@@ -1,0 +1,422 @@
+@charset "utf-8";
+
+// Point Color
+$P900:#0c269f;
+$P800:#1c39b5;
+$P700:#2444c2;
+$P600:#2f4fcf;
+$P500:#3557da;
+$P400:#4d6ee4;
+$P300:#778cea;
+$P200:#a0adf0;
+$P100:#c7cdf6;
+$P50:#e9ebfb;
+
+// Point / Grayscales
+$ink900:#1E2023;
+$ink800:#373a3c;
+$ink700:#5A5F64;
+$ink600:#6b6e73;
+$ink500:#8b8f94;
+$ink400:#9fa2a8;
+$ink300:#B9BCC0;
+$ink200:#dcdfe3;
+$ink100:#ebedf2;
+$ink50:#f2f5f9;
+
+// BI Gold
+$BI900:#8f6f41;
+$BI800:#b69149;
+$BI700:#cea64e;
+$BI600:#e4bb54;
+$BI500:#f5cc59;
+$BI400:#f8d26d;
+$BI300:#fbda84;
+$BI200:#fee5a4;
+$BI100:#ffeec7;
+$BI50:#fff9e9;
+
+// Kmall - BG / etc Color
+$BG3:#F7F7FD;
+$BG2:#F5F7FA;
+$BG1:#f8fafc;
+$Line1:#eaeaea;
+$Line2:#F2F5F9;
+
+// 마이페이지 bg컬러
+$My700:#212b36;
+$My600:#454f5b;
+$My500:#525f6f;
+$My400:#6b7c8a;
+$My300:#8a9aaa;
+$My200:#a3b1bf;
+$My100:#dfe3e8;
+
+// Red
+$R900:#ce0700;
+$R800:#e6240a;
+$R700:#f42d10;
+$R600:#ff3c1a;
+$R500:#ff5644;
+$R400:#ff6340;
+$R300:#ff8262;
+$R200:#ffa68f;
+$R100:#ffcabb;
+$R50:#fff1f0;
+
+// Orange ~ neon
+$On900:#ff8c00;
+$On800:#fbb800;
+$On700:#f8d100;
+$On600:#f5eb00;
+$On500:#f2ff00;
+$On400:#e7f437;
+$On300:#edf864;
+$On200:#f3fb94;
+$On100:#f8fdc0;
+$On50:#fdffe7;
+
+// Green
+$G900:#007a34;
+$G800:#009a49;
+$G700:#00ac55;
+$G600:#00c063;
+$G500:#00d06e;
+$G400:#00da83;
+$G300:#4ae29b;
+$G200:#8ceab9;
+$G100:#bcf2d4;
+$G50:#e6faee;
+
+// Teal
+$T900:#006d69;
+$T800:#009195;
+$T700:#00a6ac;
+$T600:#00bcc6;
+$T500:#00cdd9;
+$T400:#0dd5dd;
+$T300:#4adde2;
+$T200:#81e8e9;
+$T100:#b3f1f1;
+$T50:#E1F9F9;
+
+// Blue
+$B900:#0041a3;
+$B800:#005fc2;
+$B700:#0070d4;
+$B600:#0082e6;
+$B500:#0090f4;
+$B400:#15a0f6;
+$B300:#51b0f6;
+$B200:#86c7f9;
+$B100:#b6dcfb;
+$B50:#ebf6ff;
+
+// Purple
+$Purple900:#4f00a4;
+$Purple800:#7500b1;
+$Purple700:#8800b8;
+$Purple600:#9d00bf;
+$Purple500:#ad00c4;
+$Purple400:#bc32d0;
+$Purple300:#c95ed9;
+$Purple200:#d98ee4;
+$Purple100:#e8bcee;
+$Purple50:#f8eefa;
+
+// Magenta ~ Pink
+$Mp900:#96004f;
+$Mp800:#bc0053;
+$Mp700:#d20055;
+$Mp600:#e80059;
+$Mp500:#f9005a;
+$Mp400:#fe0074;
+$Mp300:#ff448f;
+$Mp200:#ff82b0;
+$Mp100:#ffb5d0;
+$Mp50:#ffecf3;
+
+// 구버젼 컬러 코드 변수
+$default_col:#5a5f64;
+$col_black:#1e2023;
+$col_000:#000;
+$col_030303:#030303;
+$col_26283d:#26283d;
+        
+$col_gray02:#373a3c;
+$col_gray03:#6b6e73;
+$col_gray04:#8b8f94;
+$col_gray05:#9fa2a8;
+$col_gray06:#B9BCC0;
+$col_gray07:#dcdfe3;
+$col_gray08:#eef0f6;
+$col_gray09:#f2f5f9;
+$col_gray10:#707378;
+$col_gray11:#adb0b5;
+$col_gray12:#939699;
+$col_gray13:#c9ccd1;
+$col_gray14:#adb0b5;
+$col_gray15:#ecedf2;
+$col_gray16:#727272;
+$col_gray17:#b9bcc0;
+$col_gray18:#babcc0;
+$col_gray19:#feffff;
+$col_gray20:#8e8e8e;
+$col_gray21:#dee2e8;
+$col_gray22:#aaafb4;
+$col_gray23:#b4b4b4;
+$col_gray24:#707070;
+$col_gray25:#3B4C6D;
+$col_gray26:#e8eef8;
+
+$col_blue:#4d6ee4;
+$col_blue01:#0c269f;
+$col_blue02:#1c39b5;
+$col_blue03:#2444c2;
+$col_blue04:#2f4fcf;
+$col_blue05:#3557da;
+$col_blue06:#778cea;
+$col_blue07:#a0adf0;
+$col_blue08:#c7cdf6;
+$col_blue09:#e9ebfb;
+$col_blue10:#c7cdf6;
+$col_blue11:#36a0cf;
+$col_blue12:#6373d7;
+$col_blue13:#5d74d9;
+$col_blue14:#36a1cf;
+$col_blue15:#2677cb;
+$col_blue16:#223355;
+$col_blue17:#1677ff;
+
+$col_my700:#212b36;
+$col_my600:#454f5b;
+$col_myP:#525F6F;
+$col_my400:#6b7c8a;
+$col_my300:#8a9aaa;
+$col_my200:#a3b1bf;
+$col_my100:#dfe3e8;
+$col_my50:#ebedf2;
+
+$col_biP:#8f6f41;
+$col_bi800:#b69149;
+$col_bi700:#cea64e;
+$col_bi600:#e4bb54;
+$col_bi500:#f5cc59;
+$col_bi400:#f8d26d;
+$col_bi300:#fbda84;
+$col_bi200:#fee5a4;
+$col_bi100:#ffeec7;
+$col_bi50:#fff9e9;
+
+$col_neon900:#ff8c00;
+$col_neon800:#fbb800;
+$col_neon700:#f8d100;
+$col_neon600:#f5eb00;
+$col_neonP:#f2ff00;
+$col_neon400:#e7f437;
+$col_neon300:#edf864;
+$col_neon200:#f3fb94;
+$col_neon100:#f8fdc0;
+$col_neon50:#fdffe7;
+
+$col_red900:#ce0700;
+$col_red800:#e6240a;
+$col_red700:#f42d10;
+$col_red600:#ff3c1a;
+$col_red500:#f32e10;
+$col_redP:#ff5644;
+$col_red400:#ff6340;
+$col_red350:#fe97a4;
+$col_red300:#ff8262;
+$col_red200:#ffa68f;
+$col_red100:#ffcabb;
+$col_red50:#fff1f0;
+$col_red40:#fd438e;
+$col_red30:#fed5da;
+$col_red10:#ffeef1;
+$col_red11:#eb8b80;
+$col_red12:#ffebec;
+$col_red13:#ff6d80;
+$col_red14:#fa7a89;
+$col_red15:#efdce2;
+$col_red16:#fd97a4;
+$col_red17:#d31b62;
+$col_red18:#e65656;
+$col_red19:#eb4f3b;
+
+$col_green900:#007a34;
+$col_green800:#009a49;
+$col_green700:#00ac55;
+$col_green600:#00c063;
+$col_green500:#00d06e;
+$col_green400:#00da83;
+$col_greenP:#4ae29b;
+$col_green200:#8ceab9;
+$col_green100:#bcf2d4;
+$col_green50:#e6faee;
+$col_green60:#d9f2f2;
+
+$col_teal900:#006d69;
+$col_teal800:#009195;
+$col_teal700:#00a6ac;
+$col_teal600:#00bcc6;
+$col_teal500:#00cdd9;
+$col_teal400:#0dd5dd;
+$col_tealP:#4adde2;
+$col_teal200:#81e8e9;
+$col_teal100:#b3f1f1;
+$col_teal50:#e1f9f9;
+$col_teal40:#00979f;
+$col_teal0:#f0fcfc;
+$col_blues:#45bcba;
+
+$col_subBlue900:#0041a3;
+$col_subBlue800:#005fc2;
+$col_subBlue700:#0070d4;
+$col_subBlue600:#0082e6;
+$col_subBlue500:#0090f4;
+$col_subBlue400:#778bea;
+$col_subBlueP:#15a0f6;
+$col_subBlue300:#51b0f6;
+$col_subBlue200:#86c7f9;
+$col_subBlue100:#b6dcfb;
+$col_subBlue50:#ebf6ff;
+
+$col_purple1000:#922ac1;
+$col_purple900:#4f00a4;
+$col_purple800:#7500b1;
+$col_purple700:#8800b8;
+$col_purple600:#9d00bf;
+$col_purple500:#ad00c4;
+$col_purple400:#bc32d0;
+$col_purple300:#9733c3;
+$col_purpleP:#c95ed9;
+$col_purple200:#d98ee4;
+$col_purple150:#dbc7ff;
+$col_purple100:#e8bcee;
+$col_purple50:#f8eefa;
+$col_purple20:#ede3ff;
+$col_purple10:#922ac1;
+
+$col_magenta900:#96004f;
+$col_magenta800:#bc0053;
+$col_magenta700:#d20055;
+$col_magenta600:#e80059;
+$col_magenta500:#f9005a;
+$col_magenta400:#fe0074;
+$col_magentaP:#ff448f;
+$col_magenta200:#ff82b0;
+$col_magenta100:#ffb5d0;
+$col_magenta50:#ffecf3;
+$col_magenta40:#f4e2e7;
+
+$col_brown01:#a0763b;
+$col_brown02:#703e03;
+$col_brown03:#810303;
+
+$col_white:#fff;
+$col_point:#e6230a;
+$col_error:#ce0700;
+$col_shadowB:#8e9ed9;
+
+$col_bg01:#f8fafc;
+$col_bg02:#f5f7fa;
+$col_bg03:#f7f7fd;
+$col_bg04:#868686;
+$col_bg05:#f7f8fc;
+$col_bg06:#f9ece8;
+$col_lineG:#eaeaea;
+$col_lineG2:#eef0f6;
+$col_lineG3:#646464;
+$col_lineG4:#e9ebfb;
+$col_lineCCC:#ccc;
+$col_lineB:#ced9ff;
+
+//c몰용 색상
+$col_cRed01:#fe324b;
+$col_cRed02:#fff6f8;
+$col_cRed03:#ff436e;
+$col_cRed04:#ffeaec;
+$col_cRed05:#fe97a4;
+$col_cRed06:#fe7888;
+
+$weights_R:400;
+$weights_M:500;
+$weights_SB:600;
+$weights_B:700;
+
+/* 이벤트 페이지에서 사용할 컬러 클래스 */
+.col_cRed05{color:#fe324b!important}
+
+/* media */
+$media_sizeS:370px;
+
+%textHidden{overflow:hidden;text-indent:-9999em}
+%pseudo{content:'';display:block;position:absolute;top:50%;left:50%}
+%w_shadow{border-radius:12px;box-shadow:0 10px 20px 0 rgba($col_shadowB, 0.15);background:var(--col_white)}
+%scrollStyle{
+  &::-webkit-scrollbar{height:4px;border-radius:5px}
+  &::-webkit-scrollbar-thumb{background:$col_gray03}
+  &::-webkit-scrollbar-track{border-radius:5px;background:var(--col_white)}
+}
+//image url
+$image-url:"/mo/images";
+$image-url_dark:"/mo/images/dark";
+
+$font-body:10px;
+@function rems($val){
+    //@return $val/$font-body * 1rem;
+    @return calc($val/$font-body) * 1rem;
+}
+
+@mixin ellipsis($line, $height){
+    @if ($line == 1){
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    } @else{
+      display:-webkit-box;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:$line;
+      height:$height;
+    }
+}
+
+@mixin prefix($property, $value, $prefixes){
+    @each $prefix in $prefixes{
+      -#{$prefix}-#{$property}:$value;
+    }
+    #{$property}:$value;
+}
+@mixin size($font){
+  //font-size:$font/$font-body *1rem;
+  font-size:calc($font/$font-body) * 1rem;
+  @if($font > 15px){
+    //line-height:($font + 8px) / $font;
+    line-height:calc(($font + 8px) / $font);
+    letter-spacing:-0.03em;
+  }
+  @if($font == 15px){
+    //line-height:($font+7px) / $font;
+    line-height:calc(($font + 7px) / $font);
+    letter-spacing:-0.03em;
+  }@else if($font == 14px){
+    //line-height:($font+5px) / $font;
+    line-height:calc(($font + 8px) / $font);
+  }@else if($font == 13px){
+    //line-height:($font+5px) / $font;
+    line-height:calc(($font + 5px) / $font);
+  }@else if($font == 12px){
+    //line-height:($font+4px) / $font;
+    line-height:calc(($font + 4px) / $font);
+  }
+}
+@mixin default_font(){
+  font-family:"Pretendard", -apple-system, BlinkMacSystemFont, roboto, "Helvetica Neue", "Apple SD Gothic Neo", Arial, sans-serif;
+}
+@mixin eng_font(){
+  font-family:"Pretendard", -apple-system, BlinkMacSystemFont, roboto, sans-serif;
+}
+

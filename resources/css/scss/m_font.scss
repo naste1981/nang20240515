@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@import '_base';
+$font-url:"/mo/fonts";
+
+@font-face{
+    font-family:'Pretendard';
+    font-weight:$weights_B;
+    font-display:swap;
+    src:local('Pretendard Bold'), local('Pretendard-Bold'),
+    url(#{$font-url}/Pretendard-Bold.subset.woff2) format('woff2'), 
+    url(#{$font-url}/Pretendard-Bold.subset.woff) format('woff'),
+    url(#{$font-url}/Pretendard-Bold.ttf) format('truetype'),
+    url(#{$font-url}/Pretendard-Bold.otf) format('opentype');
+}
+
+@font-face{
+    font-family:'Pretendard';
+    font-weight:$weights_M;
+    font-display:swap;
+    src:local('Pretendard Medium'), local('Pretendard-Medium'), 
+    url(#{$font-url}/Pretendard-Medium.subset.woff2) format('woff2'), 
+    url(#{$font-url}/Pretendard-Medium.subset.woff) format('woff'),
+    url(#{$font-url}/Pretendard-Medium.ttf) format('truetype'),
+    url(#{$font-url}/Pretendard-Medium.otf) format('opentype');
+}
+
+@font-face{
+    font-family:'Pretendard';
+    font-weight:$weights_R;
+    font-display:swap;
+    src:local('Pretendard Regular'), local('Pretendard-Regular'), 
+    url(#{$font-url}/Pretendard-Regular.subset.woff2) format('woff2'), 
+    url(#{$font-url}/Pretendard-Regular.subset.woff) format('woff'),
+    url(#{$font-url}/Pretendard-Regular.ttf) format('truetype'),
+    url(#{$font-url}/Pretendard-Regular.otf) format('opentype');
+}

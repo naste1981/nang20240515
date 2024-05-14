@@ -1,0 +1,37 @@
+@import '_base', 'm_font';
+
+html{font-size:$font-body}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,div,figure,article,header,nav,footer,section{margin:0;padding:0;box-sizing:border-box;word-break:keep-all;word-wrap:break-word;white-space:normal;-webkit-text-size-adjust:100%;text-size-adjust:100%;max-height:1000000px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body,input,textarea,select,button,table,th,td{color:var(--default_col);font-weight:$weights_R;font-size:rems(15px);line-height:1.5;letter-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:$weights_R;font-size:rems(15px);line-height:1.5;letter-spacing:0}
+body,input,textarea,select,button,a,table,th,td,h1,h2,h3,h4,h5,h6,q,i,strong,option,u,b,p,span,em,ul,ol,li,dl,dt,dd,figure,article,header,nav,footer,section{@include default_font()}
+img,fieldset,iframe{border:0;vertical-align:top}
+img{width:100%;max-width:100%}
+textarea{-webkit-border-radius:0;border-radius:0;-webkit-appearance:none;appearance:none;resize:none}
+ul,ol{list-style:none;
+    &::after{content:'';display:block;clear:both}
+}
+em,address{font-style:normal}
+input,select{vertical-align:middle}
+table{width:100%;border-collapse:separate;border-spacing:0}
+hr,legend{display:none}
+caption{visibility:hidden;overflow:hidden;position:static;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+b, strong{font-weight:$weights_B}
+button{box-sizing:border-box;border:none;background:none;cursor:pointer}
+button{-webkit-tap-highlight-color:rgba($col_000,0.2);
+    &:disabled{-webkit-tap-highlight-color:rgba($col_000,0)}
+}
+
+a{color:inherit;text-decoration:none;box-sizing:border-box}
+a,button,input[type=radio],input[type=checkbox]{
+    &:focus{outline:none}
+}
+ 
+[tabindex="0"]:focus{outline:0}
+::placeholder{color:var(--col_gray06);font-size:rems(18px);font-weight:$weights_R;@include default_font()}
+textarea::placeholder{font-size:rems(15px)}
+grammarly-extension{display:none}
+
+/* layout */
+body, html{height:100%}
+
