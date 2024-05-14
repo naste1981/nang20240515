@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 이벤트 페이지에서 사용할 컬러 클래스 */
+.col_cRed05 {
+  color: #fe324b !important;
+}
+
+/* media */
+/* 이벤트 페이지에서 사용할 컬러 클래스 */
+.col_cRed05 {
+  color: #fe324b !important;
+}
+
+/* media */
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"), local("Pretendard-Bold"), url(/resources/fonts/Pretendard-Bold.subset.woff2) format("woff2"), url(/resources/fonts/Pretendard-Bold.subset.woff) format("woff"), url(/resources/fonts/Pretendard-Bold.ttf) format("truetype"), url(/resources/fonts/Pretendard-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: local("Pretendard Medium"), local("Pretendard-Medium"), url(/resources/fonts/Pretendard-Medium.subset.woff2) format("woff2"), url(/resources/fonts/Pretendard-Medium.subset.woff) format("woff"), url(/resources/fonts/Pretendard-Medium.ttf) format("truetype"), url(/resources/fonts/Pretendard-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"), local("Pretendard-Regular"), url(/resources/fonts/Pretendard-Regular.subset.woff2) format("woff2"), url(/resources/fonts/Pretendard-Regular.subset.woff) format("woff"), url(/resources/fonts/Pretendard-Regular.ttf) format("truetype"), url(/resources/fonts/Pretendard-Regular.otf) format("opentype");
+}/*# sourceMappingURL=m_contents.css.map */
