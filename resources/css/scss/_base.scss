@@ -360,8 +360,7 @@ $media_sizeS:370px;
   &::-webkit-scrollbar-track{border-radius:5px;background:var(--col_white)}
 }
 //image url
-$image-url:"/mo/images";
-$image-url_dark:"/mo/images/dark";
+$image-url:"/resources/images";
 
 $font-body:10px;
 @function rems($val){
