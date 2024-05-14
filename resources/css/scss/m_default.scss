@@ -12,7 +12,6 @@ textarea{-webkit-border-radius:0;border-radius:0;-webkit-appearance:none;appeara
 ul,ol{list-style:none;
     &::after{content:'';display:block;clear:both}
 }
-
 em,address{font-style:normal}
 input,select{vertical-align:middle}
 table{width:100%;border-collapse:separate;border-spacing:0}
